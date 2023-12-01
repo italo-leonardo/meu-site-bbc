@@ -91,6 +91,7 @@ main{
     display: flex;
     width: 40%;
     flex-wrap: wrap;
+    margin-left: 5%;
 }
 .noti_segundaria{
     width: 47%;
