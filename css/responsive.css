@@ -1,0 +1,85 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT
+/*===========================================*/
+
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 991px) {
+
+}
+
+
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 767px) {
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .menu {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .destaques,
+    .noti_quadro,
+    .noti_segundaria,
+    .noti_segundaria_2,
+    .noti_segundaria_3,
+    .noti_segundaria_4 {
+        width: 100%;
+        padding-top: 1%;
+        margin-bottom: 20px; /* Adicione margem inferior para separar os elementos verticalmente */
+    }
+
+    .noti_quadro img,
+    .noti_segundaria img,
+    .noti_segundaria_2 img,
+    .noti_segundaria_3 img,
+    .noti_segundaria_4 img {
+        width: 100%;
+        height: auto;
+        display: block; /* Adicione display block para evitar possíveis espaços indesejados */
+    }
+
+    .img_principal {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-width: 767px; /* Adicione max-width para limitar o tamanho */
+    }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+}
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+@media (min-width: 200px) and (max-width: 479px) {
+    
+}
